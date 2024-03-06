@@ -1,0 +1,33 @@
+{
+  "name": "api-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-ecs": "^3.521.0",
+    "@aws-sdk/client-s3": "^3.525.0",
+    "@clickhouse/client": "^0.2.10",
+    "@prisma/client": "^5.10.2",
+    "axios": "^1.6.7",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "install": "^0.13.0",
+    "jsonwebtoken": "^9.0.2",
+    "kafkajs": "^2.2.4",
+    "npm": "^10.5.0",
+    "passport-oauth2": "^1.8.0",
+    "prisma": "^5.10.2",
+    "random-word-slugs": "^0.1.7",
+    "socket.io": "^4.7.4",
+    "uuid": "^9.0.1",
+    "zod": "^3.22.4"
+  }
+}
